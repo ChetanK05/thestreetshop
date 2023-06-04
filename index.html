@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-1</title>
+    <link rel="icon" type="image/x-icon" href="/img/icon.ico">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK143ze32    OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css">
+
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.1/css/sharp-solid.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sofia&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 fixed-top">
+        <div class="container">
+            <img class="logo" src="img/logo3.png" width="145px" alt="logo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon" id="toggler-icon"></span>
+                <!--<span id="bar"><i class="fal fa-bars"></i></span>-->
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Shop.html">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact Us</a>
+                    </li>
+                    <div class="carticon">
+                        <a href="cart.html"><i class="fal fa-bag-shopping " id="shoppingbag" ></i></a>
+                    </div>
+            </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="container">
+            <h5>NEW ARRAIVALS</h5>
+            <h1><span>Best Price</span>This Year</h1>
+            <p>shoomatic offers your very comfortable time <br> on walking and execises.</p>
+            <button id="shopbtn">Shop Now</button>
+        </div>
+    </section>
+    <section id="brand" class="container">
+        <div class="row m-0 py-5">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/puma.png" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/levis.png" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/nike.png" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/adidas.png" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/5.png" alt="">
+            <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/brand/6.png" alt="">
+        </div>
+    </section>
+    <section class="container-fluid row">
+        <div class="col col-lg-4 col-md-12 col-12 p-0 m-0">
+            <img class="img-fluid" src="img/new/9.jpg" alt="" srcset="">
+            <div class="details">
+                <h2>Extreme Rare Sneakers</h2>
+                <button class="text-uppercase">Shop Now</button>
+            </div>
+        </div>
+        <div class="col col-lg-4 col-md-12 col-12 p-0 m-0">
+            <img class="img-fluid" src="img/new/4.jpg" alt="" srcset="">
+            <div class="details">
+                <h2>Awesome Blank Outfit</h2>
+                <button class="text-uppercase">Shop Now</button>
+            </div>
+        </div>
+        <div class="col col-lg-4 col-md-12 col-12 p-0 m-0">
+            <img class="img-fluid" src="img/new/3.jpg" alt="" srcset="">
+            <div class="details">
+                <h2>Sportwear Up To 50% Off</h2>
+                <button class="text-uppercase">Shop Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="featured" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+            <h3>Our Featured</h3>
+            <hr class="mx-auto">
+            <p>Here you can check out our new products with fair price on rymo.</p>
+        </div>
+        <div class="row mx auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/1.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/2.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/3.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/featured/4.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="banner" class="my-5 py-5">
+        <div class="container">
+            <h4>MID SEASON'S SALE</h4>
+            <h1>Autumn collection <br> UP TO 20% OFF</h1>
+            <button class="text-uppercase">Shop Now</button>
+        </div>
+    </section>
+    <section id="clothes" class="my-5 ">
+        <div class="container text-center mt-5 py-5">
+            <h3>Dresses & Jumpsuits</h3>
+            <hr class="mx-auto">
+            <p>Here you can check out our new products with fair price on rymo.</p>
+        </div>
+        <div class="row mx auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/clothes/1.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/clothes/2.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/clothes/3.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/clothes/4.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sport Boots</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="watches" class="my-5 ">
+        <div class="container text-center mt-5 py-5">
+            <h3>Best Watches</h3>
+            <hr class="mx-auto">
+            <p>Here you can check out our new products with fair price on rymo.</p>
+        </div>
+        <div class="row mx auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/watches/titan1.webp" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Titan Watch</h5>
+                <h4 class="p-price">Rs-12999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/watches/titan2.webp" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Titan Watch</h5>
+                <h4 class="p-price">Rs-15999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/watches/titan3.webp" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Titan Watch</h5>
+                <h4 class="p-price">Rs-10999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/watches/titan4.webp" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Titan Watch</h5>
+                <h4 class="p-price">Rs-8999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <section id="shoes" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+            <h3>Running Shoes</h3>
+            <hr class="mx-auto">
+            <p>Here you can check out our new products with fair price on rymo.</p>
+        </div>
+        <div class="row mx auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/shoes/adidas3.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Adidas Running Shoes</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/shoes/puma2.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Puma Running Shoes</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/shoes/redtape1.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Leather Shoes</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" src="img/shoes/5.jpg" alt="">
+                <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <h5 class="p-name">Sneakers Boots</h5>
+                <h4 class="p-price">Rs-999/-</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5">
+            <div class="footer-one col-lg-3 col-md-6 col-12 ">
+                <img class="pt-0" src="img/logo4.png" width="145px" alt="">
+                <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo itaque tempora alias quisquam maiores
+                    repellat rerum voluptatibus aspernatur sunt quae.</p>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Featured</h5>
+                <ul class="text-uppercase list-unstyled">
+                    <li><a href="#">men</a></li>
+                    <li><a href="#">women</a></li>
+                    <li><a href="#">boys</a></li>
+                    <li><a href="#">girls</a></li>
+                    <li><a href="#">new arrivals</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">clothes</a></li>
+                </ul>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12 mb-3">
+                <h5 class="pb-2">Contact Us</h5>
+                <div>
+                    <h6 class="text-uppercase">Address</h6>
+                    <p class="text-uppercase">123 Street name, city, State, india</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase">Phone</h6>
+                    <p class="text-uppercase">020-26262626</p>
+                </div>
+                <div>
+                    <h6 class="text-uppercase">Email</h6>
+                    <p class="text-uppercase">info@domain.com</p>
+                </div>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Instagram</h5>
+                <div class="row">
+                    <img class="img-fluid w-25 h-100 m-2" src="img/insta/1.jpg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="img/insta/2.jpg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="img/insta/3.jpg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="img/insta/4.jpg" alt="">
+                    <img class="img-fluid w-25 h-100 m-2" src="img/insta/5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="copyright mt-5">
+            <div class="row container mx-auto">
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <img src="img/payment.png" alt="">
+                </div>
+                <div class="container col-lg-3 col-md-6 col-12 text-nowrap mb-2">
+                    <p>rymo eCommerce &copy; 2022. All Right Reserved</p>
+                </div>
+                <div class="container col-lg-3 col-md-6 col-12 pt-3 pl-4" id="footericon" >
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
